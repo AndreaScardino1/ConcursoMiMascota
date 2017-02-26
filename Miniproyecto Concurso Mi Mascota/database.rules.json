@@ -1,0 +1,17 @@
+{
+  "rules": {
+
+
+    	"entrada":{
+    		".write": false,
+    		".read" : "auth != null",
+
+    		"$ced":{
+    			".write": true,
+    			".read" : "auth != null"
+    		}
+    	}
+    
+
+  }
+}

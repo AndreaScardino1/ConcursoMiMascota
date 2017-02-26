@@ -188,7 +188,7 @@ for (var i = 0; i < elementos.length; i++) {
 			btnsubmit.addEventListener('click', e=>{
 
 		  	const ced=cedula.value;
-		  	var adopcion = "no";
+		  	var adopcion = "si";
 
 		  	if(document.formulario_registro.masAdop[0].checked){
 		  		adopcion= "si";
